@@ -1,0 +1,22 @@
+{
+  "name": "tiny-webpack",
+  "version": "1.0.0",
+  "description": "Try making it simpler, I dare you",
+  "main": "index.js",
+  "devDependencies": {
+    "css-loader": "0.23.1",
+    "style-loader": "0.13.1",
+    "webpack-dev-server": "1.14.1",
+    "webpack": "1.13.0"
+  },
+  "scripts": {
+    "start": "webpack-dev-server --hot --inline --progress --colors"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tinystride/tiny-webpack.git"
+  },
+  "author": "Neil Renicker",
+  "license": "ISC",
+  "homepage": "https://github.com/tinystride/tiny-webpack"
+}
